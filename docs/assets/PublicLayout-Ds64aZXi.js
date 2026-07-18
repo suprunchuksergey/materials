@@ -1,0 +1,1 @@
+import{_ as e,b as t,d as n,i as r,s as i,u as a}from"./runtime-core.esm-bundler-D2N5U51p.js";import{n as o,t as s}from"./AppFooter-DBYo-A4J.js";var c={class:`min-h-screen bg-neutral-50 flex flex-col`},l={class:`flex-1`},u=n({__name:`PublicLayout`,setup(n){return(n,u)=>{let d=t(`router-view`);return e(),i(`div`,c,[a(o),r(`main`,l,[a(d)]),a(s)])}}});export{u as default};

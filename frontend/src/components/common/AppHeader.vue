@@ -69,6 +69,15 @@ const navItems = [
             {{ selectionStore.currentItems.length }}
           </span>
         </RouterLink>
+
+
+        <RouterLink
+            to="/admin"
+            class="hover:text-neutral-900 transition-colors"
+            aria-label="Админ панель"
+        >
+          Админ панель
+        </RouterLink>
       </div>
     </div>
   </header>
