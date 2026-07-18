@@ -1,0 +1,40 @@
+import type { Manufacturer } from "@/types";
+
+export const manufacturersMock: Manufacturer[] = [
+  {
+    id: "man-1",
+    name: "Rasch",
+    country: "Германия",
+    logoUrl: "https://picsum.photos/seed/rasch/80/80",
+  },
+  {
+    id: "man-2",
+    name: "Tikkurila",
+    country: "Финляндия",
+    logoUrl: "https://picsum.photos/seed/tikkurila/80/80",
+  },
+  {
+    id: "man-3",
+    name: "Marazzi",
+    country: "Италия",
+    logoUrl: "https://picsum.photos/seed/marazzi/80/80",
+  },
+  {
+    id: "man-4",
+    name: "Tarkett",
+    country: "Франция",
+    logoUrl: "https://picsum.photos/seed/tarkett/80/80",
+  },
+  {
+    id: "man-5",
+    name: "Grohe",
+    country: "Германия",
+    logoUrl: "https://picsum.photos/seed/grohe/80/80",
+  },
+  {
+    id: "man-6",
+    name: "Vitra",
+    country: "Турция",
+    logoUrl: "https://picsum.photos/seed/vitra/80/80",
+  },
+];

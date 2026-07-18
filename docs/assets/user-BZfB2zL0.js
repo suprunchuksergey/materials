@@ -1,0 +1,1 @@
+import{M as e}from"./runtime-core.esm-bundler-D2N5U51p.js";import{t}from"./index-DY8h8Gkj.js";import{t as n}from"./users.mock-CkmOuzN6.js";var r=t(`user`,()=>{let t=e(null),r=e(!1);async function i(){r.value=!0,t.value=n[0],r.value=!1}async function a(e){t.value&&={...t.value,...e}}return{currentUser:t,isLoading:r,fetchCurrentUser:i,updateProfile:a}});export{r as t};

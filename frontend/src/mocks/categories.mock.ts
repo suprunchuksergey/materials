@@ -1,0 +1,60 @@
+import type { Category } from "@/types";
+
+export const categoriesMock: Category[] = [
+  {
+    id: "cat-1",
+    name: "Обои",
+    slug: "wallpaper",
+    iconName: "GalleryVertical",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-2",
+    name: "Ламинат",
+    slug: "laminate",
+    iconName: "Layers",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-3",
+    name: "Плитка",
+    slug: "tile",
+    iconName: "Grid3x3",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-4",
+    name: "Краска",
+    slug: "paint",
+    iconName: "PaintBucket",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-5",
+    name: "Плинтусы",
+    slug: "skirting",
+    iconName: "Minus",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-6",
+    name: "Сантехника",
+    slug: "plumbing",
+    iconName: "ShowerHead",
+    materialsCount: 4,
+  },
+  {
+    id: "cat-7",
+    name: "Двери",
+    slug: "doors",
+    iconName: "DoorClosed",
+    materialsCount: 3,
+  },
+  {
+    id: "cat-8",
+    name: "Освещение",
+    slug: "lighting",
+    iconName: "Lightbulb",
+    materialsCount: 3,
+  },
+];
